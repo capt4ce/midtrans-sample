@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+> IMPORTANT: copy `.env-example` to `.env` and fill the envs before starting the app
+
 First, run the development server:
 
 ```bash
@@ -32,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## APP Notes
+
+### Sandbox settlement
+
+1. visit this page [Midtrans snadbox settlement](https://simulator.sandbox.midtrans.com/openapi/va/payment)
+2. settle the payment based on the payment you put while trying to pay
+3. you should see the payment status changes in the "Transactions" section of your Midtrans sandbox dashboard
